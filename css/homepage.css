@@ -1,0 +1,517 @@
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body{
+  overflow-x: hidden;
+  font-family: 'Lato',sans-serif;
+  color:white;
+}
+.petal-img {
+  background-position: right 10px center 30px;
+background-repeat: no-repeat;
+height: 23rem;
+}
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background:(0,0,0,.6)!important;
+}
+.navbar-brand img{
+
+  height:5rem;
+}
+.navbar-nav li{
+  padding-right:.7rem;
+}
+.navbar-light .navbar-nav .nav-link{
+  background-image: url('images/.jpg'),
+                  url('images/headerpetal.jpg');
+  color:black;
+  padding-top:.8rem;
+  background-position: right 35% bottom 45%;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+  color:black;
+}
+.dropdown-item{
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background:(0,0,0,.6)!important;
+}
+.dropdown-item.active,
+.dropdown-item.hover{
+  color:black;
+
+}
+
+/*-- Slider--*/
+.carousel-item active{
+  width:18%;
+  
+}
+.carousel-item{
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:60vh;
+}
+.carousel-caption{
+  color:black;
+   position:center;
+   left:65%;
+   right:-40%;
+
+}
+.carousel-caption h2{
+  position:center;
+}
+.carousel-item, .background-img{
+
+  background-position-y: 25%;
+
+}
+.btn{
+  background-position: bottom 50px right 100px;
+
+}
+.waves{
+  background-image: url('images/waves01.jpg');
+  margin-top-right:40;
+  height:350px;
+  
+  border-bottom-right-radius: 35%;
+  box-sizing: 100px;
+}
+.waves-image {
+  background-image: url('../images/petals04.jpg');
+  background-position-x: center;
+  width:5%;
+  margin-left:47%;
+  padding:4px 0 0 0;
+}
+.waves-leaf {
+  background-position-y: bottom 8px;
+  width:10%;
+  padding:5px 0 0 0;
+
+}
+.waves-caption{
+position:center;
+padding:8px 4px 0 0;
+}
+.family-service-container{
+  
+  width:100%;
+}
+
+.family-service-caption{
+  
+  color:#222;
+}
+.service-petal-img {
+  
+  background-position-x: center;
+  height:2rem;
+  background-color: white;
+}
+.caption-img{
+  width:11%;
+  margin-left:14%
+}
+.bg-img{
+  background-image: url('../images/Petals05.jpg');
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position-y: center;
+  background-position-x: 73px;
+
+}
+.family-service-brand img{
+  background-image: url('../images/Petals05.jpg');
+  background-position-y: left;
+  background-color: white;
+  color:#30c8d8;
+  height:7rem;
+}
+.family-service img{
+  background-position-x:right;
+  size:100%;
+}
+
+.above-img{
+  height: 23rem;
+  margin-left:-81px
+}
+.below-img{
+  height: 23rem;
+  position: relative;
+  top:-81px;
+  left:-18%;
+}
+
+.glyphicon-one-fine-full-dot:before {
+    content:"\25cf";
+    font-size: 1em;
+}
+.understand-container{
+  background-color:white;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  
+
+}
+.understand-left {
+  background-image: url('../images/palmleaf001.jpg'),
+                    url('../images/yellowdotsleft.jpg');
+  background-color:white;         
+}
+.understand-right {
+  background-image: url('../images/PalmBranch.jpeg'),
+                    url('../images/yellowdots-right.jpg');
+          margin-left:90%;
+          padding:16px 0 0 6px;           
+  background-color:white;
+}
+/*--
+.yellowdots-left {
+  background-image: url('../images/yellowdotsleft.jpg');
+  position-y:  top 20px;
+  width:1%;
+  
+}
+.yellowdots-right {
+  background-image: url('../images/yellowdots-right.jpg');
+  
+margin-left:91%;
+  width:9%;
+  color:white;
+}
+--*/
+.caret-right {
+    border-left: 4px solid;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+}
+.help-petal{
+
+  background-color: white;
+  text-align: center;
+  size:4rem;
+}
+.help-caption{
+  text-align: center;
+  color:#222;
+  size:4rem;
+}
+.needs-img{
+  background-image: url('../images/palmbranch01.jpeg');
+  background-size:cover;
+  background-repeat: no-repeat;
+width:1px;
+
+}
+.needs-caption{
+  position:center;
+}
+.needs-petal{
+  
+  width:4%;
+}
+.needs{
+height: 330px;
+border-top-left-radius: 35%;
+}
+.services-image{
+  background-image: url('../images/services1.jpg');
+  background-repeat: no-repeat;
+   width:93%;
+   margin-top:-83%;
+
+}
+.dots-image{ 
+  background-image:url('../images/dotsblue.jpg') ;
+width:9%;
+background-position-y: -93px;
+background-position-x: 89px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.dots1-image{
+  background-image:url('../images/dotsblue1.jpg');
+  margin-left:96%;
+  width:60%;
+  }
+
+.service-btn {
+  background-color:white; /* Green */
+  border: 1px solid;
+  color: black;
+  padding: 8px;
+  text-align: center;
+  text-color:black;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 5px 10px 8px #888888;
+  width:36%;
+  
+}
+.customise-btn {
+  padding:59px 0 0 0;
+  margin-top:3%;
+}
+.icon{
+  width:50px;
+margin-right:98px%;
+}
+.text{
+text-size:1rem;
+text-color:black;
+}
+.button1 {border-radius: 8px;}
+.button2 {border-radius: 8px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 8px;}
+
+.footer-container{
+  padding:60px 0 10px 0;
+  background-size: cover;
+  height:50px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.f-right{
+  font-size: 12px;
+}
+.footer-brand{
+  
+  background-position:bottom 50px center  50px;
+
+  background-repeat: no-repeat;
+  background-color: #30c8d8;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background:(0,0,0,.6)!important;
+}
+.footer-bg{
+  background-color: transparent;
+  background-image: url('../images/petals03.jpg');
+  background-color: #30c8d8;
+  background-size: cover;
+  background-position-x: bottom 10px center 40px;
+}
+.footer-left {
+  background-color: #30c8d8;
+  height:10rem;
+
+}
+.footer-bottom{
+  text-align:center;
+  color:white;
+  padding-top:50px;
+}
+.founders-img{
+  background-image: url('../images/founderbg.jpg');
+  
+  height:30px;
+}
+
+.social a{
+  margin-right:10px;
+}
+
+.footer-right >*{
+  flex:1 50%;
+  margin-right:1.25em;
+}
+.footer-right a{
+  text-decoration: none;
+  color:white;
+}
+.footer-right li{
+  list-style:none;
+}
+.h-box{
+  column-count:2;
+  columns: gap 1.25em;
+}
+
+.footer-msg {
+  margin-right:1.25rem;
+  margin-bottom:2rem;
+padding-right:20px;
+font-size:12px;
+}
+.footer-left {
+  width:50%;
+}
+footer-btext{
+  margin-left:1%
+}
+
+.founders-caption{
+  position: center;
+  color:#222;
+  font-family:serif;
+}
+.founders{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.founder{
+  margin-bottom: -16px;
+}
+
+
+/*---Media Queries --*/
+/*--large devices(Desktops and laptops)*/
+@media(min-width:1200px){
+  #home-heading h3{
+    color:white;
+  }
+}
+/*-- Medium Devices(landscape Tablets & Desktops)*/
+@media (min-width: 992px) and (max-width:1199px) {
+
+    .social a{
+        font-size: 4em;
+        padding: 2rem;
+        
+    }
+
+  }
+  /* Small Devices(Portrait Tablets & Small Dektops)*/
+@media (min-width: 768px) and (max-width:991px) {
+.carousel-caption{
+    top: 45%;
+}
+
+.carousel-caption h1{
+    font-size: 350%;
+}
+.carousel-caption h3{
+    font-size: 140%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+}
+.carousel-caption .btn{
+font-size: 95%;
+    padding: 8px 14px;
+}
+
+.display-4{
+    font-size: 200%;
+}
+
+.social a{
+    font-size: 2.5em;
+    padding: 1.2rem;
+}
+
+}
+@media (max-width: 600px) 
+{
+  .carousel-caption{
+    top: 40%;
+}
+
+.carousel-caption h1{
+    font-size: 250%;
+}
+.carousel-caption h3{
+    font-size: 110%;
+
+}
+.carousel-caption .btn{
+    font-size: 90%;
+    padding: 4px 8px;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+.display-4{
+    font-size: 160%;
+}
+.social a{
+    font-size: 2em !important;
+    padding: 0.7em !important;
+
+}
+
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+
+
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
